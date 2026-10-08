@@ -1,0 +1,221 @@
+[
+  {
+    "id": "micro-fact",
+    "prompt": "Was bedeutet MVP? Antworte kurz.",
+    "primary": "sentence",
+    "must_include": [
+      "MVP definition"
+    ],
+    "must_avoid": [
+      "mindmap",
+      "unnecessary headings"
+    ]
+  },
+  {
+    "id": "true-order",
+    "prompt": "Erkläre in 4 Schritten, wie man ein Produkt testet.",
+    "primary": "numbered_steps",
+    "must_include": [
+      "four ordered steps"
+    ],
+    "must_avoid": [
+      "unordered pseudo-sequence"
+    ]
+  },
+  {
+    "id": "arrow-process",
+    "prompt": "Zeige den Ablauf von Idee bis Launch als Pfeilkette.",
+    "primary": "arrow_chain",
+    "must_include": [
+      "arrows",
+      "ordered stages"
+    ],
+    "must_avoid": [
+      "invented completed status"
+    ]
+  },
+  {
+    "id": "option-comparison",
+    "prompt": "Vergleiche SaaS-Abo und Einmalverkauf bei Preis, Risiko, Support.",
+    "primary": "table",
+    "must_include": [
+      "same attributes for both options"
+    ],
+    "must_avoid": [
+      "fabricated figures"
+    ]
+  },
+  {
+    "id": "mindmap-explicit",
+    "prompt": "Zeig die Bereiche einer Geschäftsidee als Mindmap.",
+    "primary": "mindmap",
+    "must_include": [
+      "central concept",
+      "related branches",
+      "text fallback if unsupported"
+    ],
+    "must_avoid": [
+      "causal implication"
+    ]
+  },
+  {
+    "id": "mindmap-implicit",
+    "prompt": "Erkläre die Beziehungen zwischen Kunde, Produkt, Markt und Finanzierung übersichtlich.",
+    "primary": "mindmap",
+    "must_include": [
+      "connected concepts"
+    ],
+    "must_avoid": [
+      "false chronological ordering"
+    ]
+  },
+  {
+    "id": "branch-flow",
+    "prompt": "Wenn Kunden zahlen würden, baue einen MVP; sonst zuerst das Problem prüfen. Visualisiere die Entscheidung.",
+    "primary": "flowchart",
+    "must_include": [
+      "yes/no branch"
+    ],
+    "must_avoid": [
+      "single misleading linear chain"
+    ]
+  },
+  {
+    "id": "chat-recap",
+    "prompt": "Fasse zusammen: Erst war eine App geplant, dann wurde eine Website beschlossen. Features sind fix, Budget noch offen.",
+    "primary": "chat_chain",
+    "must_include": [
+      "website decision",
+      "budget open"
+    ],
+    "must_avoid": [
+      "budget approved",
+      "app launched"
+    ]
+  },
+  {
+    "id": "topic-not-timeline",
+    "prompt": "Fasse unseren Chat zusammen: Wir haben über Preise, Zielgruppen und Werbung gesprochen. Entscheidungen gab es keine.",
+    "primary": "bullets",
+    "must_include": [
+      "no decisions"
+    ],
+    "must_avoid": [
+      "invented timeline",
+      "decided prices"
+    ]
+  },
+  {
+    "id": "exact-json",
+    "prompt": "Antworte nur als JSON mit den Keys status und reason.",
+    "primary": "strict_format",
+    "must_include": [
+      "valid JSON",
+      "status",
+      "reason"
+    ],
+    "must_avoid": [
+      "markdown fences",
+      "preamble"
+    ]
+  },
+  {
+    "id": "natural-email",
+    "prompt": "Schreib eine kurze freundliche E-Mail ohne Stichpunkte.",
+    "primary": "prose",
+    "must_include": [
+      "complete email"
+    ],
+    "must_avoid": [
+      "bullet list",
+      "diagram"
+    ]
+  },
+  {
+    "id": "school-essay",
+    "prompt": "Write a continuous 200-word English analysis, no lists.",
+    "primary": "prose",
+    "must_include": [
+      "English",
+      "continuous prose"
+    ],
+    "must_avoid": [
+      "headings",
+      "arrows"
+    ]
+  },
+  {
+    "id": "uncertainty",
+    "prompt": "Erkläre eine unsichere Finanzprognose in 3 Punkten. Welche Annahmen gelten?",
+    "primary": "bullets",
+    "must_include": [
+      "assumptions",
+      "uncertainty"
+    ],
+    "must_avoid": [
+      "guaranteed returns"
+    ]
+  },
+  {
+    "id": "mobile",
+    "prompt": "Erkläre drei Vor- und Nachteile von zwei Lösungen, gut lesbar auf dem Handy.",
+    "primary": "table",
+    "must_include": [
+      "compact cells",
+      "both options"
+    ],
+    "must_avoid": [
+      "extremely wide table"
+    ]
+  },
+  {
+    "id": "single-correction",
+    "prompt": "Nein, ich meinte 2027 statt 2026. Korrigiere den Satz.",
+    "primary": "sentence",
+    "must_include": [
+      "2027"
+    ],
+    "must_avoid": [
+      "extra summary",
+      "unasked-for chart"
+    ]
+  },
+  {
+    "id": "diagram-unsupported",
+    "prompt": "Das Interface kann kein Mermaid anzeigen. Zeichne eine Mindmap als Text zu Solarstrom, Speicher und Lastmanagement.",
+    "primary": "text_tree",
+    "must_include": [
+      "readable text hierarchy"
+    ],
+    "must_avoid": [
+      "mermaid-only output",
+      "claimed rendering"
+    ]
+  },
+  {
+    "id": "causal-honesty",
+    "prompt": "Zwei Größen korrelieren. Visualisiere das, ohne Kausalität zu behaupten.",
+    "primary": "bullets",
+    "must_include": [
+      "correlation is not causation"
+    ],
+    "must_avoid": [
+      "X causes Y arrow"
+    ]
+  },
+  {
+    "id": "long-answer",
+    "prompt": "Analysiere Nutzen, Kosten und Risiken eines MVP detailliert.",
+    "primary": "sections",
+    "must_include": [
+      "answer first",
+      "benefits",
+      "costs",
+      "risks"
+    ],
+    "must_avoid": [
+      "decorative diagram",
+      "repetitive conclusion"
+    ]
+  }
+]
